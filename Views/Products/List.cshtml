@@ -1,0 +1,9 @@
+
+
+@{
+    foreach(var product in (IEnumerable<dynamic>) ViewData["products"]){
+         <li>
+             @product
+         </li>
+    }
+}

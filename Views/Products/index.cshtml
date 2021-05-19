@@ -2,17 +2,26 @@
    
 }
 
+<style>
+    input , select , textarea {
+        padding: 5px;
+        margin: 3px;
+    }
+
+</style>
+
 <div>
    
    <form method="POST"  asp-controller="Products" asp-action="Index">
-       <input type="text" placeholder="Product Name" name="productname" id="">
-       <input type="text" placeholder="Product Price" name="productprice" id="">
-       <input type="text" placeholder="Product Quantity" name="productqt" id="">
-       <select name="producttype" id="">
-           <option value="">Electronics</option>
-            <option value="">Automobiles</option>
-           <option value="">Clothes</option>
-       </select>
+       <input type="text" placeholder="Product Name" name="productname" id="" required> <br>
+       <input type="text" placeholder="Product Price" name="productprice" id="" required><br>
+       <input type="text" placeholder="Product Quantity" name="productqt" id="" required><br>
+       <select name="producttype" id="" required>
+           <option value="electronics">Electronics</option>
+            <option value="automobiles">Automobiles</option>
+           <option value="furnitures">Furnitures</option>
+       </select><br>
+       <textarea name="description" id="" cols="30" rows="10"></textarea required><br>
        <input type="submit" name="submit" id="" value="Save Product">
    </form>
 
