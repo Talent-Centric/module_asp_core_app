@@ -1,0 +1,37 @@
+<style>
+ 
+    table{
+        width: 70%;
+    }
+</style>
+
+
+<table>
+    <tr>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Description</th>
+        <th>Type</th>
+        <th>Delete</th>
+        <th>Edit</th>
+        <th></th>
+    </tr>
+    
+@{
+    foreach(var product in  ViewData["products"] as List<Products>){
+        <form asp-action="Edit" asp-controller="Products">
+            <tr>
+                <td>@product.PName</td>
+                <td>@product.PPrice</td>
+                <td>@product.PQauantity</td>
+                <td>@product.PDescription</td>
+                <td>@product.PType</td>
+                <td><input type="submit" value="X" name="action" asp-action="HandleDelete"/></td>
+                <td><input type="submit" value="E" name="action" /></td>
+                <td><input type="text" value="@product.PId" name="productId" hidden/></td>
+            </tr>
+        </form>
+    }
+}
+</table>
