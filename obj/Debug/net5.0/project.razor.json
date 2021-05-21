@@ -15619,13 +15619,23 @@
   "RootNamespace": "ModuleAspProject",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Leaderruvuna\\Desktop\\CodeImpact\\dotnet\\module_asp_dotnet_core\\moduleAspApp\\ModuleAspProject\\Views\\Products\\list.cshtml",
-      "TargetPath": "Views\\Products\\list.cshtml",
+      "FilePath": "c:\\Users\\Leaderruvuna\\Desktop\\CodeImpact\\dotnet\\module_asp_dotnet_core\\moduleAspApp\\ModuleAspProject\\Views\\Products\\Edit.cshtml",
+      "TargetPath": "Views\\Products\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Leaderruvuna\\Desktop\\CodeImpact\\dotnet\\module_asp_dotnet_core\\moduleAspApp\\ModuleAspProject\\Views\\Products\\List.cshtml",
+      "TargetPath": "Views\\Products\\List.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "c:\\Users\\Leaderruvuna\\Desktop\\CodeImpact\\dotnet\\module_asp_dotnet_core\\moduleAspApp\\ModuleAspProject\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Leaderruvuna\\Desktop\\CodeImpact\\dotnet\\module_asp_dotnet_core\\moduleAspApp\\ModuleAspProject\\Views\\Products\\HandleEdit.cshtml",
+      "TargetPath": "Views\\Products\\HandleEdit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15641,6 +15651,11 @@
     {
       "FilePath": "c:\\Users\\Leaderruvuna\\Desktop\\CodeImpact\\dotnet\\module_asp_dotnet_core\\moduleAspApp\\ModuleAspProject\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Leaderruvuna\\Desktop\\CodeImpact\\dotnet\\module_asp_dotnet_core\\moduleAspApp\\ModuleAspProject\\Views\\Products\\HandleDelete.cshtml",
+      "TargetPath": "Views\\Products\\HandleDelete.cshtml",
       "FileKind": "mvc"
     },
     {
