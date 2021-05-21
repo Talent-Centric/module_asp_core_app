@@ -1,0 +1,23 @@
+@{
+    var product=ViewData["product"] as Products;
+}
+
+<div>
+   
+   <form method="POST"  asp-controller="Products" asp-action="HandleEdit">
+       <input type="text" placeholder="Product Name" name="productname" value="@product.PName" id="" required> <br>
+       <input type="text" placeholder="Product Price" name="productprice" value="@product.PPrice" id="" required><br>
+       <input type="text" placeholder="Product Quantity" name="productqt" value="@product.PQauantity" id="" required><br>
+       <select name="producttype" id=""  required>
+           <option value="electronics">Electronics</option>
+            <option value="automobiles">Automobiles</option>
+           <option value="furnitures">Furnitures</option>
+       </select><br>
+       <textarea name="description" id="" cols="30" rows="10" >
+           @product.PDescription
+       </textarea required><br>
+       <input type="submit" name="editproduct" id="" value="Update Product">
+       <input type="text" name="productid" id="" value="@product.PId" hidden/>
+   </form>
+
+</div>

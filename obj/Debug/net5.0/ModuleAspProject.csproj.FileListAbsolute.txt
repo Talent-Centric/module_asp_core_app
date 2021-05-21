@@ -60,3 +60,6 @@ C:\Users\Leaderruvuna\Desktop\CodeImpact\dotnet\module_asp_dotnet_core\moduleAsp
 C:\Users\Leaderruvuna\Desktop\CodeImpact\dotnet\module_asp_dotnet_core\moduleAspApp\ModuleAspProject\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Leaderruvuna\Desktop\CodeImpact\dotnet\module_asp_dotnet_core\moduleAspApp\ModuleAspProject\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Leaderruvuna\Desktop\CodeImpact\dotnet\module_asp_dotnet_core\moduleAspApp\ModuleAspProject\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Leaderruvuna\Desktop\CodeImpact\dotnet\module_asp_dotnet_core\moduleAspApp\ModuleAspProject\obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\Leaderruvuna\Desktop\CodeImpact\dotnet\module_asp_dotnet_core\moduleAspApp\ModuleAspProject\obj\Debug\net5.0\Razor\Views\Products\HandleEdit.cshtml.g.cs
+C:\Users\Leaderruvuna\Desktop\CodeImpact\dotnet\module_asp_dotnet_core\moduleAspApp\ModuleAspProject\obj\Debug\net5.0\Razor\Views\Products\HandleDelete.cshtml.g.cs

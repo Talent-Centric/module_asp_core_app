@@ -9,7 +9,7 @@ This web application is an ASP.net core web app for learning ASP core concepts l
 It's gonna support the following features:
 
 * MVC architecture
-* Microservices wth Ocealot
+* Microservices with Ocealot
 * API support
 * Web security(Authentication,authorization)
 
